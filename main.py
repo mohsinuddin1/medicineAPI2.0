@@ -26,7 +26,7 @@ label_classes = np.load(LABELS_PATH)
 # Configure Gemini API
 
 genai.configure(api_key=GEMINI_API_KEY)
-model_gemini = genai.GenerativeModel("gemini-2.5-pro-exp-03-25")
+model_gemini = genai.GenerativeModel("gemini-2.0-flash")
 
 app = FastAPI()
 
